@@ -1,4 +1,4 @@
-package store_cashier_producer;
+package sport_cashier_producer;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
