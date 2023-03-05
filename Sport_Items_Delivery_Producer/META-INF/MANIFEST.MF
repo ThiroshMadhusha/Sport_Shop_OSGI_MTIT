@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sport_Items_Delivery_Producer
+Bundle-SymbolicName: Sport_Items_Delivery_Producer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: sport_items_delivery_producer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: Sport.Items.Delivery.Producer
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: sport_items_delivery_producer
