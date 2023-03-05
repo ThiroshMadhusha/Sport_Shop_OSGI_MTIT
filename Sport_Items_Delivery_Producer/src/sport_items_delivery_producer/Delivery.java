@@ -7,13 +7,14 @@ public class Delivery {
 	private String DeliveryLocation;
 	private int DeliveryChargers;
 	
+// Declaring variables
 	
 	public Delivery(int sportItemsID, String deliveryName, String deliveryLocation,String delivery_Item, int deliveryChargers) {
 		super();
 		SportItemsID = sportItemsID;
 		DeliveryName = deliveryName;
 		DeliveryLocation = deliveryLocation;
-		DeliveryChargers = Integer.parseInt(delivery_Item) * 30;;
+		DeliveryChargers = Integer.parseInt(delivery_Item) * 30;; // Calculate chargers using the distance
 	}
 
 
